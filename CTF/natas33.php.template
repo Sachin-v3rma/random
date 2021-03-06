@@ -1,0 +1,15 @@
+<? Php
+$ phar = new Phar ('test.phar');
+$ Phar-> startBuffering ();
+$ phar-> setStub ('<? php __HALT_COMPILER ();?>');
+
+class Executor {{
+  private $ filename = '{}';
+  private $ signature = '{}';
+}}
+$ object = new Executor ();
+$ Phar-> setMetadata ($ object);
+$ phar-> addFromString ('test.txt', 'text');
+$ Phar-> stopBuffering ();
+
+?>

